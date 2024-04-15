@@ -1,0 +1,31 @@
+{
+    "name": "svelte-devserver",
+    "version": "0.2.0",
+    "description": "Just simple SPA",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ulmzr/svelte-devserver.git"
+    },
+    "keywords": [],
+    "author": "Yulmizar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ulmzr/svelte-devserver/issues"
+    },
+    "homepage": "https://github.com/ulmzr/svelte-devserver#readme",
+    "dependencies": {
+        "chokidar": "^3.6.0",
+        "esbuild": "^0.20.2",
+        "esbuild-sass-plugin": "^3.2.0",
+        "sass": "^1.72.0",
+        "ws": "^8.16.0"
+    },
+    "devDependencies": {
+        "esbuild-svelte": "^0.8.0",
+        "svelte-preprocess": "^5.1.3"
+    }
+}
